@@ -1,2 +1,0 @@
-[console_scripts]
-spreadsheet-gym = spreadsheet_gym.cli:main
