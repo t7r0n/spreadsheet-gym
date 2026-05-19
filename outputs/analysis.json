@@ -1,0 +1,82 @@
+{
+  "company": "Halluminate",
+  "repo": "spreadsheet-gym",
+  "cases": 144,
+  "status_counts": {
+    "pass": 111,
+    "review": 19,
+    "block": 14
+  },
+  "clusters": [
+    {
+      "scenario": "assets failure replay",
+      "cases": 24,
+      "blocks": 2,
+      "reviews": 4,
+      "mean_severity": 3.333,
+      "mean_score": 0.5212,
+      "top_evidence_id": "ev_0044",
+      "recommended_action": "block release until replay is understood"
+    },
+    {
+      "scenario": "halluminate drift",
+      "cases": 24,
+      "blocks": 2,
+      "reviews": 3,
+      "mean_severity": 2.5,
+      "mean_score": 0.3947,
+      "top_evidence_id": "ev_0022",
+      "recommended_action": "block release until replay is understood"
+    },
+    {
+      "scenario": "halluminate evidence recall",
+      "cases": 24,
+      "blocks": 3,
+      "reviews": 3,
+      "mean_severity": 1.875,
+      "mean_score": 0.2935,
+      "top_evidence_id": "ev_0066",
+      "recommended_action": "block release until replay is understood"
+    },
+    {
+      "scenario": "public gap",
+      "cases": 24,
+      "blocks": 3,
+      "reviews": 2,
+      "mean_severity": 3.333,
+      "mean_score": 0.5166,
+      "top_evidence_id": "ev_0143",
+      "recommended_action": "block release until replay is understood"
+    },
+    {
+      "scenario": "public reviewer handoff",
+      "cases": 24,
+      "blocks": 2,
+      "reviews": 4,
+      "mean_severity": 2.583,
+      "mean_score": 0.3999,
+      "top_evidence_id": "ev_0055",
+      "recommended_action": "block release until replay is understood"
+    },
+    {
+      "scenario": "westworld policy boundary",
+      "cases": 24,
+      "blocks": 2,
+      "reviews": 3,
+      "mean_severity": 1.708,
+      "mean_score": 0.2759,
+      "top_evidence_id": "ev_0099",
+      "recommended_action": "block release until replay is understood"
+    }
+  ],
+  "highest_risk": {
+    "scenario": "public gap",
+    "cases": 24,
+    "blocks": 3,
+    "reviews": 2,
+    "mean_severity": 3.333,
+    "mean_score": 0.5166,
+    "top_evidence_id": "ev_0143",
+    "recommended_action": "block release until replay is understood"
+  }
+}

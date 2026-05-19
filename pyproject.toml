@@ -1,0 +1,30 @@
+[project]
+name = "spreadsheet-gym"
+version = "0.1.0"
+description = "An RLVR graded, deterministic Excel and PowerPoint sandbox in which a banker agent must rebuild a real LBO model and pass 47 unit tests - th"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+    { name = "Tarun Aditya Kusupati" }
+]
+dependencies = []
+
+[project.scripts]
+spreadsheet-gym = "spreadsheet_gym.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.0",
+    "ruff>=0.15.0",
+]
+
+[build-system]
+requires = ["setuptools>=80"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"

@@ -1,0 +1,18 @@
+{
+  "company": "Halluminate",
+  "repo": "spreadsheet-gym",
+  "metrics": [
+    "halluminate_coverage",
+    "public_risk",
+    "assets_precision",
+    "westworld_latency"
+  ],
+  "failure_modes": [
+    "halluminate_drift",
+    "public_gap",
+    "assets_misroute",
+    "westworld_blindspot"
+  ],
+  "minimum_cases": 144,
+  "requires_evidence_markers": true
+}
