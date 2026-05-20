@@ -1,5 +1,5 @@
 {
-  "company": "Halluminate",
+  "company": "Spreadsheet Gym",
   "repo": "spreadsheet-gym",
   "cases": 144,
   "status_counts": {
@@ -9,53 +9,53 @@
   },
   "clusters": [
     {
-      "scenario": "assets boundary probe",
+      "scenario": "claim regression harness",
       "cases": 36,
       "blocks": 3,
-      "reviews": 4,
+      "reviews": 5,
       "mean_severity": 2.528,
-      "mean_score": 0.3819,
-      "top_evidence_id": "ev_0121",
-      "recommended_action": "route to reviewer with evidence packet"
+      "mean_score": 0.4028,
+      "top_evidence_id": "ev_0110",
+      "recommended_action": "open a regression issue with trace and benchmark delta"
     },
     {
-      "scenario": "halluminate evidence replay",
+      "scenario": "evidence replay",
       "cases": 36,
       "blocks": 4,
       "reviews": 5,
       "mean_severity": 2.611,
-      "mean_score": 0.4096,
+      "mean_score": 0.416,
       "top_evidence_id": "ev_0000",
       "recommended_action": "block release until cited evidence is regenerated"
     },
     {
-      "scenario": "webbench operator packet",
+      "scenario": "handoff boundary probe",
+      "cases": 36,
+      "blocks": 3,
+      "reviews": 4,
+      "mean_severity": 2.528,
+      "mean_score": 0.3907,
+      "top_evidence_id": "ev_0121",
+      "recommended_action": "route to reviewer with evidence packet"
+    },
+    {
+      "scenario": "review operator packet",
       "cases": 36,
       "blocks": 4,
       "reviews": 5,
       "mean_severity": 2.556,
-      "mean_score": 0.4044,
+      "mean_score": 0.4002,
       "top_evidence_id": "ev_0011",
       "recommended_action": "accept only if decision claims cite fixture evidence"
-    },
-    {
-      "scenario": "westworld regression harness",
-      "cases": 36,
-      "blocks": 3,
-      "reviews": 5,
-      "mean_severity": 2.528,
-      "mean_score": 0.3879,
-      "top_evidence_id": "ev_0066",
-      "recommended_action": "open a regression issue with trace and benchmark delta"
     }
   ],
   "highest_risk": {
-    "scenario": "halluminate evidence replay",
+    "scenario": "evidence replay",
     "cases": 36,
     "blocks": 4,
     "reviews": 5,
     "mean_severity": 2.611,
-    "mean_score": 0.4096,
+    "mean_score": 0.416,
     "top_evidence_id": "ev_0000",
     "recommended_action": "block release until cited evidence is regenerated"
   }

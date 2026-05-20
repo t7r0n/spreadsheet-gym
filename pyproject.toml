@@ -1,7 +1,7 @@
 [project]
 name = "spreadsheet-gym"
 version = "0.1.0"
-description = "An RLVR graded, deterministic Excel and PowerPoint sandbox in which a banker agent must rebuild a real LBO model and pass 47 unit tests - th"
+description = "An RLVR graded, deterministic Excel and PowerPoint sandbox in which a banker agent must rebuild a real LBO model and pas"
 readme = "README.md"
 requires-python = ">=3.12"
 authors = [

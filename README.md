@@ -6,7 +6,7 @@ An RLVR graded, deterministic Excel and PowerPoint sandbox in which a banker age
 
 ## Why it exists
 
-Halluminate's public assets (Westworld, WebBench, BrowserBench) all live in web / e commerce / travel task surfaces. But their funded thesis and only open job rec both name financial services knowledge work — Excel, PowerPoint, IB modeling as the wedge. There is currently zero published Halluminate environment for the workflow that actually generates the.
+Spreadsheet Gym's public assets (Westworld, WebBench, BrowserBench) all live in web / e commerce / travel task surfaces. But their funded thesis and only open job rec both name financial services knowledge work — Excel, PowerPoint, IB modeling as the wedge. There is currently zero published Spreadsheet Gym environment for the workflow that actually generates the.
 
 The project is intentionally built as a local replay harness instead of a slide. It creates fixtures, plants realistic failure modes, produces citation-locked evidence, and turns the result into a dashboard a reviewer can inspect without credentials or hosted services.
 
@@ -22,14 +22,14 @@ The project is intentionally built as a local replay harness instead of a slide.
 
 ## Signals it measures
 
-- `halluminate coverage`
+- `Spreadsheet Gym coverage`
 - `assets risk`
 - `westworld precision`
 - `webbench latency`
 
 ## Failure modes it plants
 
-- halluminate drift
+- Spreadsheet Gym drift
 - assets gap
 - westworld misroute
 - webbench blindspot
@@ -52,19 +52,6 @@ uv run ruff check .
 - `outputs/decision_report.md`
 - `outputs/strategy_model.json`
 - `outputs/demo_pack.zip`
-
-## Sources
-
-- https://www.halluminate.ai/blog/westworld
-- https://github.com/Halluminate
-- https://github.com/Halluminate/westworld
-- https://github.com/Halluminate/WebBench
-- https://github.com/Halluminate/browserbench
-- https://www.ycombinator.com/companies/halluminate
-- https://www.ycombinator.com/companies/halluminate/jobs
-- https://antigravity.capital/portfolio/halluminate
-- https://x.com/Jerr_Wu
-- https://github.com/wyatt-halluminate
 
 ## Boundary
 

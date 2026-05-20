@@ -1,5 +1,5 @@
 scenario,cases,blocks,reviews,mean_severity,mean_score,top_evidence_id,recommended_action
-assets boundary probe,36,3,4,2.528,0.3819,ev_0121,route to reviewer with evidence packet
-halluminate evidence replay,36,4,5,2.611,0.4096,ev_0000,block release until cited evidence is regenerated
-webbench operator packet,36,4,5,2.556,0.4044,ev_0011,accept only if decision claims cite fixture evidence
-westworld regression harness,36,3,5,2.528,0.3879,ev_0066,open a regression issue with trace and benchmark delta
+claim regression harness,36,3,5,2.528,0.4028,ev_0110,open a regression issue with trace and benchmark delta
+evidence replay,36,4,5,2.611,0.416,ev_0000,block release until cited evidence is regenerated
+handoff boundary probe,36,3,4,2.528,0.3907,ev_0121,route to reviewer with evidence packet
+review operator packet,36,4,5,2.556,0.4002,ev_0011,accept only if decision claims cite fixture evidence
