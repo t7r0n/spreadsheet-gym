@@ -5,8 +5,8 @@
   "package": "spreadsheet_gym",
   "cli": "spreadsheet-gym",
   "title": "Spreadsheet Gym",
-  "problem": "Halluminate's public assets (Westworld, WebBench, BrowserBench) all live in web / e commerce / travel task surfaces. But their funded thesis and only open job rec both name financial services knowledge work - Excel, PowerPoint, IB modeling as the wedge. There is currently zero published Halluminate environment for the workflow that actually generates the dollars on a banker's screen: opening an LBO model in Excel, drag filling a debt schedule, and verifying it agrees to the cap table on slide 7 of a PowerPoint.",
-  "direction": "An RLVR graded, deterministic Excel and PowerPoint sandbox in which a banker agent must rebuild a real LBO model and pass 47 unit tests - the missing financial services chapter of Westworld, shipped as a drop in westworld.envs.spreadsheet module.",
+  "problem": "Halluminate's public assets (Westworld, WebBench, BrowserBench) all live in web / e commerce / travel task surfaces. But their funded thesis and only open job rec both name financial services knowledge work \u2014 Excel, PowerPoint, IB modeling as the wedge. There is currently zero published Halluminate environment for the workflow that actually generates the dollars on a banker's screen: opening an LBO model in Excel, drag filling a debt schedule, and verifying it agrees to the cap table on slide 7 of a PowerPoint.",
+  "direction": "An RLVR graded, deterministic Excel and PowerPoint sandbox in which a banker agent must rebuild a real LBO model and pass 47 unit tests \u2014 the missing financial services chapter of Westworld, shipped as a drop in westworld.envs.spreadsheet module.",
   "why": "The recalc(hard=True) + perturbation robustness gate is exactly the kind of subtle insight that separates \"I built a spreadsheet eval\" from \"I built a spreadsheet RLVR gym that doesn't leak reward.\" Lands as a PR, not a fork.",
   "terms": [
     "halluminate",

@@ -1,6 +1,6 @@
 # Decision Report: Spreadsheet Gym
 
-An RLVR graded, deterministic Excel and PowerPoint sandbox in which a banker agent must rebuild a real LBO model and pass 47 unit tests - the missing financial services chapter of Westworld, shipped as a drop in westworld.envs.spreadsheet module.
+An RLVR graded, deterministic Excel and PowerPoint sandbox in which a banker agent must rebuild a real LBO model and pass 47 unit tests — the missing financial services chapter of Westworld, shipped as a drop in westworld.envs.spreadsheet module.
 
 ## Evidence-Grounded Findings
 
