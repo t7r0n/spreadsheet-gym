@@ -1,6 +1,6 @@
 # Operator Brief: Halluminate
 
-Halluminate gets a local, deterministic pressure test around halluminate, assets, and westworld. The useful part is not the dashboard; it is the repeatable evidence path from fixture to failure to operator action.
+Halluminate gets a local, deterministic pressure test around halluminate, assets, and westworld. The useful part is the repeatable evidence path from fixture to failure to operator action.
 
 ## Highest-leverage checks
 
