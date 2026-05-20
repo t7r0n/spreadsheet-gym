@@ -1,0 +1,59 @@
+{
+  "layers": [
+    {
+      "name": "synthetic_fixture_replay",
+      "purpose": "exercise halluminate and assets cases"
+    },
+    {
+      "name": "domain_strategy",
+      "purpose": "score halluminate_coverage and assets_risk"
+    },
+    {
+      "name": "evidence_lock",
+      "purpose": "reject narrative claims without fixture evidence IDs"
+    },
+    {
+      "name": "operator_packet",
+      "purpose": "emit dashboard, SVG readout, CSV, markdown report, and demo pack"
+    }
+  ],
+  "pressure_index": 0.3167,
+  "top_leverage_points": [
+    {
+      "rank": 1,
+      "scenario": "halluminate evidence replay",
+      "metric": "halluminate_coverage",
+      "failure_mode": "halluminate_drift",
+      "evidence": "ev_0000",
+      "operator_action": "block release until cited evidence is regenerated",
+      "severity": 2.611
+    },
+    {
+      "rank": 2,
+      "scenario": "webbench operator packet",
+      "metric": "assets_risk",
+      "failure_mode": "assets_gap",
+      "evidence": "ev_0011",
+      "operator_action": "accept only if decision claims cite fixture evidence",
+      "severity": 2.556
+    },
+    {
+      "rank": 3,
+      "scenario": "westworld regression harness",
+      "metric": "westworld_precision",
+      "failure_mode": "westworld_misroute",
+      "evidence": "ev_0066",
+      "operator_action": "open a regression issue with trace and benchmark delta",
+      "severity": 2.528
+    },
+    {
+      "rank": 4,
+      "scenario": "assets boundary probe",
+      "metric": "webbench_latency",
+      "failure_mode": "webbench_blindspot",
+      "evidence": "ev_0121",
+      "operator_action": "route to reviewer with evidence packet",
+      "severity": 2.528
+    }
+  ]
+}

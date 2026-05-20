@@ -2,19 +2,39 @@
 
 An RLVR graded, deterministic Excel and PowerPoint sandbox in which a banker agent must rebuild a real LBO model and pass 47 unit tests - the missing financial services chapter of Westworld, shipped as a drop in westworld.envs.spreadsheet module.
 
-## Why This Exists
+![Spreadsheet Gym working dashboard](outputs/project_working.svg)
 
-Halluminate's public assets (Westworld, WebBench, BrowserBench) all live in web / e commerce / travel task surfaces. But their funded thesis and only open job rec both name financial services knowledge work - Excel, PowerPoint, IB modeling as the wedge. There is currently zero published Halluminate environment for the workflow that actually generates the dollars on a banker's screen: opening an LBO model in Excel, drag filling a debt schedule, and verifying it agrees to the cap table on slide 7 of a PowerPoint.
+## Why it exists
 
-## What It Builds
+Halluminate's public assets (Westworld, WebBench, BrowserBench) all live in web / e commerce / travel task surfaces.
 
-- Replays synthetic `halluminate` and `assets` cases against the project's evidence rules.
-- Scores `halluminate_coverage`, `assets_risk`, and `westworld_precision` so regressions are visible in CSV and JSON.
-- Plants `halluminate drift` and `assets gap` failures as negative controls.
-- Writes citation-locked decision claims; unsupported claims fail verification.
-- Exports a review dashboard and demo pack for `spreadsheet-gym` without hosted services.
+Most internal demos stop at a pretty chart. This repository is built around the harder part: a repeatable path from fixture, to failure, to evidence, to the operator action a serious team would actually trust.
 
-## Local Run
+## What is inside
+
+- A deterministic replay harness tuned around halluminate, assets, and westworld.
+- Company-specific strategy code in `src/spreadsheet_gym/strategy.py`, not just README-level customization.
+- Citation-locked reports where every decision claim has to point back to a generated evidence ID.
+- Two visual artifacts generated from the latest run: `outputs/project_working.svg` and `outputs/evidence_map.svg`.
+- A portable demo pack with JSON, CSV, Markdown, HTML, SVG, and benchmark artifacts.
+
+![Spreadsheet Gym evidence map](outputs/evidence_map.svg)
+
+## Signals it measures
+
+- `halluminate coverage`
+- `assets risk`
+- `westworld precision`
+- `webbench latency`
+
+## Failure modes it plants
+
+- halluminate drift
+- assets gap
+- westworld misroute
+- webbench blindspot
+
+## Run it locally
 
 ```bash
 uv sync
@@ -23,16 +43,14 @@ uv run pytest -q
 uv run ruff check .
 ```
 
-## Outputs
+## Outputs worth opening
 
-- `outputs/analysis.json`
-- `outputs/scenario_report.csv`
-- `outputs/decision_report.md`
-- `outputs/evidence_packet.md`
-- `outputs/domain_rubric.json`
-- `outputs/failure_matrix.md`
-- `outputs/trace_graph.mmd`
 - `outputs/dashboard.html`
+- `outputs/project_working.svg`
+- `outputs/evidence_map.svg`
+- `outputs/operator_brief.md`
+- `outputs/decision_report.md`
+- `outputs/strategy_model.json`
 - `outputs/demo_pack.zip`
 
 ## Sources
@@ -50,4 +68,4 @@ uv run ruff check .
 
 ## Boundary
 
-This repository uses synthetic fixtures only. It has no credentials, no customer data, no outreach data, and no dependency on a hosted API.
+Everything runs locally against synthetic fixtures. There are no credentials, no customer records, no outreach files, and no hosted API dependency.

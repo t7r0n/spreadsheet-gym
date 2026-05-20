@@ -1,0 +1,69 @@
+{
+  "company": "Halluminate",
+  "repo": "spreadsheet-gym",
+  "terms": [
+    "halluminate",
+    "assets",
+    "westworld",
+    "webbench",
+    "browserbench",
+    "commerce",
+    "travel",
+    "surfaces"
+  ],
+  "metrics": [
+    "halluminate_coverage",
+    "assets_risk",
+    "westworld_precision",
+    "webbench_latency"
+  ],
+  "failure_modes": [
+    "halluminate_drift",
+    "assets_gap",
+    "westworld_misroute",
+    "webbench_blindspot"
+  ],
+  "evidence_density": 17.75,
+  "pressure_index": 0.3167,
+  "blocked_share": 0.0972,
+  "review_share": 0.1319,
+  "top_leverage_points": [
+    {
+      "rank": 1,
+      "scenario": "halluminate evidence replay",
+      "metric": "halluminate_coverage",
+      "failure_mode": "halluminate_drift",
+      "evidence": "ev_0000",
+      "operator_action": "block release until cited evidence is regenerated",
+      "severity": 2.611
+    },
+    {
+      "rank": 2,
+      "scenario": "webbench operator packet",
+      "metric": "assets_risk",
+      "failure_mode": "assets_gap",
+      "evidence": "ev_0011",
+      "operator_action": "accept only if decision claims cite fixture evidence",
+      "severity": 2.556
+    },
+    {
+      "rank": 3,
+      "scenario": "westworld regression harness",
+      "metric": "westworld_precision",
+      "failure_mode": "westworld_misroute",
+      "evidence": "ev_0066",
+      "operator_action": "open a regression issue with trace and benchmark delta",
+      "severity": 2.528
+    },
+    {
+      "rank": 4,
+      "scenario": "assets boundary probe",
+      "metric": "webbench_latency",
+      "failure_mode": "webbench_blindspot",
+      "evidence": "ev_0121",
+      "operator_action": "route to reviewer with evidence packet",
+      "severity": 2.528
+    }
+  ],
+  "readout": "Halluminate gets a local, deterministic pressure test around halluminate, assets, and westworld. The useful part is not the dashboard; it is the repeatable evidence path from fixture to failure to operator action."
+}
