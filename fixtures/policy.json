@@ -3,15 +3,37 @@
   "repo": "spreadsheet-gym",
   "metrics": [
     "halluminate_coverage",
-    "public_risk",
-    "assets_precision",
-    "westworld_latency"
+    "assets_risk",
+    "westworld_precision",
+    "webbench_latency"
   ],
   "failure_modes": [
     "halluminate_drift",
-    "public_gap",
-    "assets_misroute",
-    "westworld_blindspot"
+    "assets_gap",
+    "westworld_misroute",
+    "webbench_blindspot"
+  ],
+  "domain_archetypes": [
+    {
+      "name": "halluminate evidence replay",
+      "trigger": "halluminate signal changes while assets context is stale",
+      "expected": "block release until cited evidence is regenerated"
+    },
+    {
+      "name": "assets boundary probe",
+      "trigger": "assets handoff crosses a policy or trust boundary",
+      "expected": "route to reviewer with evidence packet"
+    },
+    {
+      "name": "westworld regression harness",
+      "trigger": "westworld behavior regresses against the last accepted fixture",
+      "expected": "open a regression issue with trace and benchmark delta"
+    },
+    {
+      "name": "webbench operator packet",
+      "trigger": "webbench output needs a human-readable audit packet",
+      "expected": "accept only if decision claims cite fixture evidence"
+    }
   ],
   "minimum_cases": 144,
   "requires_evidence_markers": true

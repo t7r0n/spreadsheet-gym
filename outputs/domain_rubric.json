@@ -1,0 +1,68 @@
+{
+  "repo": "spreadsheet-gym",
+  "company": "Halluminate",
+  "rubric_axes": [
+    {
+      "axis": "halluminate_coverage",
+      "failures": [
+        "halluminate_drift"
+      ],
+      "evidence_required": true
+    },
+    {
+      "axis": "assets_risk",
+      "failures": [
+        "assets_gap"
+      ],
+      "evidence_required": true
+    },
+    {
+      "axis": "westworld_precision",
+      "failures": [
+        "westworld_misroute"
+      ],
+      "evidence_required": true
+    },
+    {
+      "axis": "webbench_latency",
+      "failures": [
+        "webbench_blindspot"
+      ],
+      "evidence_required": true
+    }
+  ],
+  "archetypes": [
+    {
+      "name": "halluminate evidence replay",
+      "trigger": "halluminate signal changes while assets context is stale",
+      "expected": "block release until cited evidence is regenerated"
+    },
+    {
+      "name": "assets boundary probe",
+      "trigger": "assets handoff crosses a policy or trust boundary",
+      "expected": "route to reviewer with evidence packet"
+    },
+    {
+      "name": "westworld regression harness",
+      "trigger": "westworld behavior regresses against the last accepted fixture",
+      "expected": "open a regression issue with trace and benchmark delta"
+    },
+    {
+      "name": "webbench operator packet",
+      "trigger": "webbench output needs a human-readable audit packet",
+      "expected": "accept only if decision claims cite fixture evidence"
+    }
+  ],
+  "sources_used": [
+    "https://www.halluminate.ai/blog/westworld",
+    "https://github.com/Halluminate",
+    "https://github.com/Halluminate/westworld",
+    "https://github.com/Halluminate/WebBench",
+    "https://github.com/Halluminate/browserbench",
+    "https://www.ycombinator.com/companies/halluminate",
+    "https://www.ycombinator.com/companies/halluminate/jobs",
+    "https://antigravity.capital/portfolio/halluminate",
+    "https://x.com/Jerr_Wu",
+    "https://github.com/wyatt-halluminate"
+  ]
+}

@@ -8,9 +8,9 @@ Halluminate's public assets (Westworld, WebBench, BrowserBench) all live in web 
 
 ## What It Builds
 
-- Replays synthetic `halluminate` and `public` cases against the project's evidence rules.
-- Scores `halluminate_coverage`, `public_risk`, and `assets_precision` so regressions are visible in CSV and JSON.
-- Plants `halluminate drift` and `public gap` failures as negative controls.
+- Replays synthetic `halluminate` and `assets` cases against the project's evidence rules.
+- Scores `halluminate_coverage`, `assets_risk`, and `westworld_precision` so regressions are visible in CSV and JSON.
+- Plants `halluminate drift` and `assets gap` failures as negative controls.
 - Writes citation-locked decision claims; unsupported claims fail verification.
 - Exports a review dashboard and demo pack for `spreadsheet-gym` without hosted services.
 
@@ -29,6 +29,9 @@ uv run ruff check .
 - `outputs/scenario_report.csv`
 - `outputs/decision_report.md`
 - `outputs/evidence_packet.md`
+- `outputs/domain_rubric.json`
+- `outputs/failure_matrix.md`
+- `outputs/trace_graph.mmd`
 - `outputs/dashboard.html`
 - `outputs/demo_pack.zip`
 
